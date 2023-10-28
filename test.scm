@@ -68,7 +68,3 @@ display((equal? (list 21 15 23 27 18) y)) ;should be #t
 display((equal? (list 1.4091	2.5341	2.6716	2.9091) result)) ; should be #t
 (newline)
 (newline)
-
-
-
-
