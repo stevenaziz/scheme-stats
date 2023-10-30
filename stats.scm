@@ -1,5 +1,5 @@
 ; Authored by Steven Aziz
-; Last Modified 10-27-2023
+; Last Modified 10-30-2023
 
 ; Mean function
 ; Takes list of numbers and outputs the average
