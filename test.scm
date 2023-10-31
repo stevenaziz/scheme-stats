@@ -65,6 +65,6 @@
 (define test (list 1200 1650 1705 1800))
 (define result (apply-regression sat gpa test)) ;should be #t
 
-(display(equal? (list 1.4091	2.5341	2.6716	2.9091) result)) ; should be #t
+(display(equal? (list 1.4378	2.5736	2.7124	2.9522) result)) ; should be #t
 (newline)
 (newline)

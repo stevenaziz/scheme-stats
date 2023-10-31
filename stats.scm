@@ -151,7 +151,7 @@
         (let calc-next ((xval test))
             (if (pair? xval)
                 (begin
-                    (set! output (cons (+ beta (* alpha (car xval))) output))
+                    (set! output (cons (/ (round (* 10000 (+ beta (* alpha (car xval))))) 10000) output))
                     (calc-next (cdr xval))
                 )
             )  
